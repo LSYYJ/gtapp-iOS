@@ -22,8 +22,9 @@ gtapp-iOS-OC-demo
 	返回值：
 	1.code 成功或者失败的值（1：成功/其他：失败）
 	2.message 成功或者失败的信息（success/fail）
-	3.	result 详细的返回信息，用于向客户服务器提交之后的SDK二次验证信息 {
-	4.	 "geetest_challenge": "5a8c21e206f5f7ba4fa630acf269d0ec4z",
-	5.	 "geetest_validate": "f0f541006215ac784859e29ec23d5b97",
-	6.	 "geetest_seccode": "f0f541006215ac784859e29ec23d5b97|jordan"
-	7.	 }
+	3.result 详细的返回信息，用于向客户服务器提交之后的SDK二次验证信息 
+		{
+		 "geetest_challenge": "5a8c21e206f5f7ba4fa630acf269d0ec4z",
+		 "geetest_validate": "f0f541006215ac784859e29ec23d5b97",
+		 "geetest_seccode": "f0f541006215ac784859e29ec23d5b97|jordan"
+		 }

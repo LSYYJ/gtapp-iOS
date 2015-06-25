@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29428E741B3BBEB50080050D /* GTFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29428E731B3BBEB50080050D /* GTFramework.framework */; };
 		29428E921B3BC36C0080050D /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 29428E7F1B3BC36C0080050D /* NSData+MKBase64.m */; };
 		29428E931B3BC36C0080050D /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = 29428E811B3BC36C0080050D /* NSDate+RFC1123.m */; };
 		29428E941B3BC36C0080050D /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 29428E831B3BC36C0080050D /* NSDictionary+RequestEncoding.m */; };
@@ -17,6 +16,7 @@
 		29428E981B3BC36C0080050D /* MKNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 29428E8B1B3BC36C0080050D /* MKNetworkEngine.m */; };
 		29428E991B3BC36C0080050D /* MKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 29428E8E1B3BC36C0080050D /* MKNetworkOperation.m */; };
 		29428E9A1B3BC36C0080050D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 29428E911B3BC36C0080050D /* Reachability.m */; };
+		29428F071B3BD36C0080050D /* GTFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29428F061B3BD36C0080050D /* GTFramework.framework */; };
 		2967F3671B2D8A060081A66F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2967F3661B2D8A060081A66F /* main.m */; };
 		2967F36A1B2D8A060081A66F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2967F3691B2D8A060081A66F /* AppDelegate.m */; };
 		2967F36D1B2D8A060081A66F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2967F36C1B2D8A060081A66F /* ViewController.m */; };
@@ -26,7 +26,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		29428E731B3BBEB50080050D /* GTFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTFramework.framework; path = TestGT/GTFramework.framework; sourceTree = "<group>"; };
 		29428E7E1B3BC36C0080050D /* NSData+MKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MKBase64.h"; sourceTree = "<group>"; };
 		29428E7F1B3BC36C0080050D /* NSData+MKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MKBase64.m"; sourceTree = "<group>"; };
 		29428E801B3BC36C0080050D /* NSDate+RFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFC1123.h"; sourceTree = "<group>"; };
@@ -46,6 +45,7 @@
 		29428E8E1B3BC36C0080050D /* MKNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkOperation.m; sourceTree = "<group>"; };
 		29428E901B3BC36C0080050D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		29428E911B3BC36C0080050D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		29428F061B3BD36C0080050D /* GTFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTFramework.framework; path = TestGT/GTFramework.framework; sourceTree = "<group>"; };
 		2967F3611B2D8A060081A66F /* TestGT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2967F3651B2D8A060081A66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2967F3661B2D8A060081A66F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29428E741B3BBEB50080050D /* GTFramework.framework in Frameworks */,
+				29428F071B3BD36C0080050D /* GTFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +117,7 @@
 		2967F3581B2D8A060081A66F = {
 			isa = PBXGroup;
 			children = (
-				29428E731B3BBEB50080050D /* GTFramework.framework */,
+				29428F061B3BD36C0080050D /* GTFramework.framework */,
 				2967F3631B2D8A060081A66F /* TestGT */,
 				2967F37D1B2D8A060081A66F /* TestGTTests */,
 				2967F3621B2D8A060081A66F /* Products */,

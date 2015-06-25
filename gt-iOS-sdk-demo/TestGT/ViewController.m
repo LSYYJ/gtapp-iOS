@@ -34,12 +34,12 @@
 }
 
 - (IBAction)testAction:(id)sender {
+    // TODO 使用极速验证应用公钥
     static NSString * const GT_captcha_id =  @"ad872a4e1a51888967bdb7cb45589605";
     GTManager *manger = [GTManager sharedGTManger];
     __weak __typeof(self) weakSelf = self;
 
     if ([manger serverStatusWithCaptcha_id:GT_captcha_id]) {
-        // TODO 使用极速验证体系来进行验证
         [manger openGTViewAddFinishHandler:^(NSString *code, NSDictionary *result, NSString *message) {
             if ([code isEqualToString:@"1"]) {
                 // TODO 可进行二次验证

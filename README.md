@@ -16,10 +16,10 @@ gtapp-iOS-OC-demo
 	3.	将GTFramework.framework项目以Static Library的方式进行引用。将所需的GTFramework.framework拷贝到工程所在文件夹下。在 TARGETS->Build Phases-> Link Binary With Libaries中点击“+”按钮，在弹出的窗口中点击“Add Other”按钮，选择GTFramework.framework文件添加到工程中。
 	4.	在项目三处TODO中替换成用户自已的处理代码。
 	
-回调Block及返回值
-Block：
-^(NSString *code, NSDictionary *result, NSString *message) {} 
-返回值：
+	回调Block及返回值
+	Block：
+	^(NSString *code, NSDictionary *result, NSString *message) {} 
+	返回值：
 	1.code 成功或者失败的值（1：成功/其他：失败）
 	2.message 成功或者失败的信息（success/fail）
 	3.	result 详细的返回信息，用于向客户服务器提交之后的SDK二次验证信息 {

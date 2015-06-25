@@ -1,14 +1,16 @@
 # gtapp-iOS
 gtapp-iOS-OC-demo
 
+
 	1.	gt-iOS-sdk 极验验证iOS版本的SDK，是一个基于i386 x86_64、armv7、 armv7s、arm64的Static Library，支持iOS7.0＋。开发使用的Xcode版本位Xcode 6.3.1。
 	2.	gt-iOS-sdk-demo 调用sdk的演示app程序。
 	3.	直接运行TestGT项目 
 	4.	演示项目提供了完整的一次验证，并将客户端验证结果向示例的客户服务器上发起二次验证的完整通讯过程。
 	5.	二次验证试用MKNetworkKit，可根据项目需要试用其他方式。
-使用以上步骤，用户可以运行Demo示例。
-自建项目引用
-假设用户自建项目名称为：TestGT
+
+	使用以上步骤，用户可以运行Demo示例。
+	自建项目引用
+	假设用户自建项目名称为：TestGT
 	1.	在极验官方主页www.geetest.com注册账号并申请相应的应用公钥，id:{{id}}
 	2.	将gt-iOS-sdk中的静态库GTFramework.framework引入到项目中
 	3.	将GTFramework.framework项目以Static Library的方式进行引用。将所需的GTFramework.framework拷贝到工程所在文件夹下。在 TARGETS->Build Phases-> Link Binary With Libaries中点击“+”按钮，在弹出的窗口中点击“Add Other”按钮，选择GTFramework.framework文件添加到工程中。
